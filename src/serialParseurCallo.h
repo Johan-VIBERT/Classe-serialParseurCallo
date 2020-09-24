@@ -1,6 +1,6 @@
 /*! ===========================================================================================================================
-  Classe: serialParseurCallo.h                        Fichier de déclaration
-  Editor: Lycée Marcel Callo
+  Classe: serialParseurCallo.h                        Fichier de dÃ©claration
+  Editor: LycÃ©e Marcel Callo
   date:30-09-2018
 //============================================================================================================================*/
 
@@ -16,17 +16,16 @@ class serialParseurCallo
 
   public:
   /// constructeur
-	  serialParseurCallo(byte formatCMD);
+      serialParseurCallo(byte formatCMD);
 
   /// Attributs
       String _textQualificateur;
       byte _numeroCommande;
       String _parametre;
-      bool _statut[32+128+64];      // 32 pour les commandes simples pour les debugs ou liaison BT pour APPLI
-									// 128 pour les commandes avec paramètres ==> stockage dans I2C pour paramètres poele
-                                   //  + 64 pour les commandes application ANDROIDE avec paramètres               
+      bool _statut[32];      
+               
       byte _seprateurCMD;
-  /// Méthodes
+  /// MÃ©thodes
 
       void recupererQualificateur(bool debug);
       void choixCommande(bool debug);
