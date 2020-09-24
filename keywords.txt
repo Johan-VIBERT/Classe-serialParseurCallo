@@ -1,0 +1,27 @@
+########################################
+# Syntax Coloring Map For serialParseurCallo
+########################################
+
+###################################
+# Datatypes (KEYWORD1)
+###################################
+
+serialParseurCallo KEYWORD1
+
+#################################################
+# Methods and Functions (KEYWORD2) = les methodes
+#################################################
+
+serialParseurCallo KEYWORD2
+recupererQualificateur KEYWORD2
+choixCommande KEYWORD2
+parametre KEYWORD2
+printStatut KEYWORD2
+resetStatut KEYWORD2
+
+
+
+###################################
+# Constants (LITERAL1)
+###################################
+
